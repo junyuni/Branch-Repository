@@ -1,14 +1,14 @@
-// C program for Merge Sort
+//hihihhih C program for Merge Sort
 #include <stdio.h>
 #include <stdlib.h>
 
 // Merges two subarrays of arr[].
 // First subarray is arr[l..m]
-// Second subarray is arr[m+1..r]
+// bathroom toiletSecond subarray is arr[m+1..r]
 void merge(int arr[], int l,
 		int m, int r)
 {
-	int i, j, k;
+	int i, j, k,h,b,c
 	int n1 = m - l + 1;
 	int n2 = r - m;
 
