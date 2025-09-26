@@ -3,7 +3,7 @@ def partition(l, r, nums):
     pivot, ptr = nums[r], l
     for i in range(l, r):
         if nums[i] <= pivot:
-            # Swapping values smaller than the pivot to the front
+            
             nums[i], nums[ptr] = nums[ptr], nums[i]
             ptr += 1
     # Finally swapping the last element with the pointer indexed number
@@ -15,7 +15,7 @@ def partition(l, r, nums):
 # for the right values.
  
  
-def quicksort(l, r, nums):
+def quickkksort(l, r, nums):
     if len(nums) == 1:  # Terminating Condition for recursion. VERY IMPORTANT!
         return nums
     if l < r:
